@@ -8,6 +8,9 @@ import PackageDescription
 
 let package = Package(
     name: "Lightstreamer_watchOS_Client",
+    platforms: [
+        .watchOS("2.0")
+    ],
     products: [
         .library(
             name: "Lightstreamer_watchOS_Client", 
