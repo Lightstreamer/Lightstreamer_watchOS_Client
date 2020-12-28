@@ -44,3 +44,14 @@ If Swift Package Manager is not for you, you can still install the library more 
   ```
 
 Check the [download site](https://www.lightstreamer.com/repo/cocoapods/ls-watchos-client) for any newer version.
+
+## Note
+
+If your app makes use of the Lightstreamer iOS client library and during the Archive operation you encounter the following error: 
+**"The bundle Lightstreamer_iOS_Client is not contained in a correctly named directory"**, 
+please add the following script in a Run Script phase at the end of the Build Phases page of your iOS target. 
+This script deletes a copy of the Lightstreamer iOS client library that Xcode wrongly embeds in the WatchKit app for no apparent reason.
+
+```
+rm -rf "${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Watch/Lightstreamer_iOS_Client.framework"
+```
