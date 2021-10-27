@@ -1,4 +1,4 @@
-# Lightstreamer SDK for watchOS Clients Changelog
+# Lightstreamer SDK for watchOS Clients Changelog
 
 ## 4.3.2 build 32
 
