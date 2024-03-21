@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Lightstreamer_watchOS_Client", 
-            url: "https://sdk.lightstreamer.com/ls-watchos-client/4.3.2/lib/ls-watchos-client-4.3.2.zip", 
-            checksum: "79150158b5c00c5592ec61e34c9b740decaffe0dd74f171065cc9d00ac72b154"
+            url: "https://sdk.lightstreamer.com/ls-watchos-client/4.3.3/lib/ls-watchos-client-4.3.3.zip", 
+            checksum: "fbcb9481678dc228f8c2a567548c6f949c8d40c5b1c87cac1086e8010921b7c8"
         )
     ]
 )

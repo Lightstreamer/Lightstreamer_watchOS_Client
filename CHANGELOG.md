@@ -1,5 +1,16 @@
 # Lightstreamer SDK for watchOS Clients Changelog
 
+## 4.3.3
+
+_Compatible with Lightstreamer Server since 7.0._<br>
+
+_Compatible with code developed with the previous version._<br>
+
+_Released on 21 Mar 2024_
+
+Added a privacy manifest.
+
+
 ## 4.3.2 build 32
 
 _Compatible with Lightstreamer Server since 7.0._<br>
